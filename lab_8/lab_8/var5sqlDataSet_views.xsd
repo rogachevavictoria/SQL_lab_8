@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="var5sqlDataSet_views" targetNamespace="http://tempuri.org/var5sqlDataSet_views.xsd" xmlns:mstns="http://tempuri.org/var5sqlDataSet_views.xsd" xmlns="http://tempuri.org/var5sqlDataSet_views.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="var5sql_db" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="var5sql_db (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.lab_8.Properties.Settings.GlobalReference.Default.var5sql_db" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_1TableAdapter" GeneratorDataComponentClassName="view_1TableAdapter" Name="view_1" UserDataComponentName="view_1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="var5sql_db (Settings)" DbObjectName="var5sql.dbo.view_1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT abon_nam, NAM_PRIS, TCHK_NAM FROM dbo.view_1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="abon_nam" DataSetColumn="abon_nam" />
+              <Mapping SourceColumn="NAM_PRIS" DataSetColumn="NAM_PRIS" />
+              <Mapping SourceColumn="TCHK_NAM" DataSetColumn="TCHK_NAM" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_2TableAdapter" GeneratorDataComponentClassName="view_2TableAdapter" Name="view_2" UserDataComponentName="view_2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="var5sql_db (Settings)" DbObjectName="var5sql.dbo.view_2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Number_of_Abonents, ABON, abon_nam FROM dbo.view_2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Number_of_Abonents" DataSetColumn="Number_of_Abonents" />
+              <Mapping SourceColumn="ABON" DataSetColumn="ABON" />
+              <Mapping SourceColumn="abon_nam" DataSetColumn="abon_nam" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_3TableAdapter" GeneratorDataComponentClassName="view_3TableAdapter" Name="view_3" UserDataComponentName="view_3TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="var5sql_db (Settings)" DbObjectName="var5sql.dbo.view_3" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT place, tchk_place FROM dbo.view_3</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="place" DataSetColumn="place" />
+              <Mapping SourceColumn="tchk_place" DataSetColumn="tchk_place" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="var5sqlDataSet_views" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="var5sqlDataSet_views" msprop:Generator_UserDSName="var5sqlDataSet_views">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_1" msprop:Generator_TableClassName="view_1DataTable" msprop:Generator_TableVarName="tableview_1" msprop:Generator_TablePropName="view_1" msprop:Generator_RowDeletingName="view_1RowDeleting" msprop:Generator_RowChangingName="view_1RowChanging" msprop:Generator_RowEvHandlerName="view_1RowChangeEventHandler" msprop:Generator_RowDeletedName="view_1RowDeleted" msprop:Generator_UserTableName="view_1" msprop:Generator_RowChangedName="view_1RowChanged" msprop:Generator_RowEvArgName="view_1RowChangeEvent" msprop:Generator_RowClassName="view_1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="abon_nam" msprop:Generator_ColumnVarNameInTable="columnabon_nam" msprop:Generator_ColumnPropNameInRow="abon_nam" msprop:Generator_ColumnPropNameInTable="abon_namColumn" msprop:Generator_UserColumnName="abon_nam" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAM_PRIS" msprop:Generator_ColumnVarNameInTable="columnNAM_PRIS" msprop:Generator_ColumnPropNameInRow="NAM_PRIS" msprop:Generator_ColumnPropNameInTable="NAM_PRISColumn" msprop:Generator_UserColumnName="NAM_PRIS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TCHK_NAM" msprop:Generator_ColumnVarNameInTable="columnTCHK_NAM" msprop:Generator_ColumnPropNameInRow="TCHK_NAM" msprop:Generator_ColumnPropNameInTable="TCHK_NAMColumn" msprop:Generator_UserColumnName="TCHK_NAM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="view_2" msprop:Generator_TableClassName="view_2DataTable" msprop:Generator_TableVarName="tableview_2" msprop:Generator_TablePropName="view_2" msprop:Generator_RowDeletingName="view_2RowDeleting" msprop:Generator_RowChangingName="view_2RowChanging" msprop:Generator_RowEvHandlerName="view_2RowChangeEventHandler" msprop:Generator_RowDeletedName="view_2RowDeleted" msprop:Generator_UserTableName="view_2" msprop:Generator_RowChangedName="view_2RowChanged" msprop:Generator_RowEvArgName="view_2RowChangeEvent" msprop:Generator_RowClassName="view_2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Number_of_Abonents" msprop:Generator_ColumnVarNameInTable="columnNumber_of_Abonents" msprop:Generator_ColumnPropNameInRow="Number_of_Abonents" msprop:Generator_ColumnPropNameInTable="Number_of_AbonentsColumn" msprop:Generator_UserColumnName="Number_of_Abonents" type="xs:int" minOccurs="0" />
+              <xs:element name="ABON" msprop:Generator_ColumnVarNameInTable="columnABON" msprop:Generator_ColumnPropNameInRow="ABON" msprop:Generator_ColumnPropNameInTable="ABONColumn" msprop:Generator_UserColumnName="ABON">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="abon_nam" msprop:Generator_ColumnVarNameInTable="columnabon_nam" msprop:Generator_ColumnPropNameInRow="abon_nam" msprop:Generator_ColumnPropNameInTable="abon_namColumn" msprop:Generator_UserColumnName="abon_nam" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="view_3" msprop:Generator_TableClassName="view_3DataTable" msprop:Generator_TableVarName="tableview_3" msprop:Generator_TablePropName="view_3" msprop:Generator_RowDeletingName="view_3RowDeleting" msprop:Generator_RowChangingName="view_3RowChanging" msprop:Generator_RowEvHandlerName="view_3RowChangeEventHandler" msprop:Generator_RowDeletedName="view_3RowDeleted" msprop:Generator_UserTableName="view_3" msprop:Generator_RowChangedName="view_3RowChanged" msprop:Generator_RowEvArgName="view_3RowChangeEvent" msprop:Generator_RowClassName="view_3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="place" msprop:Generator_ColumnVarNameInTable="columnplace" msprop:Generator_ColumnPropNameInRow="place" msprop:Generator_ColumnPropNameInTable="placeColumn" msprop:Generator_UserColumnName="place" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tchk_place" msprop:Generator_ColumnVarNameInTable="columntchk_place" msprop:Generator_ColumnPropNameInRow="tchk_place" msprop:Generator_ColumnPropNameInTable="tchk_placeColumn" msprop:Generator_UserColumnName="tchk_place" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
